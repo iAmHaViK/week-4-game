@@ -1,0 +1,98 @@
+
+body {
+	background-image: url('../images/back.jpg');
+}
+
+header h1 {
+	background-color: #c97128;
+	width: 33%;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0 10px;
+}
+
+#instructions{
+	background-color: #fbe6cd;
+	width:45%;
+	color:#2faa60;
+	font-size: 20px;
+}
+
+#instructions h3 {
+	text-align: center;
+	border-bottom: #2faa60 dashed 1px;
+}
+
+/* third row begins here */
+#playArea{
+	height: 100px;
+
+}
+
+#numberHere{
+	background-color: #5bc87f;
+	width: 20%;
+	height: 100px;
+	font-size: 30px;
+	position: absolute;
+}
+
+#counter{
+	background-color: #4afdfe;
+	width: 20%;
+	height: 100px;
+	position: absolute;
+	left: 23%;
+	font-size: 15px;
+}
+/*third row ends here */
+
+#crystals {
+	padding-top: 10px
+}
+
+/* here I make all the pictures align*/
+#blue, #purple, #green, #yellow
+{
+	position: absolute;
+	/*padding-top: 10px;*/
+}
+
+#purple {
+	left:183.5px;
+}
+
+#purple  {
+	border-top: #fff;
+}
+
+#green{
+	left: 359px;
+}
+
+#yellow{
+	left: 533.5px;
+}
+
+/*#blue_click, #purple_click, #green_click, #yellow_click{
+	transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+*/
+#totalScore{
+	background-color: #2ba296;
+	position: absolute;
+	width: 30%;
+	color: #fff;
+}
+
+#currentScore{
+	background-color: #2ba296;
+	position: absolute;
+	width: 30%;
+	height: 150px;
+	font-size: 20px;
+	color: #fff;
+}
+
